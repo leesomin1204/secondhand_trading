@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/mypage")
 @RequiredArgsConstructor
-public class MypageControllers {
+public class MypageController {
     private final Utils utils;
 
     @GetMapping

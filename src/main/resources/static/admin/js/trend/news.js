@@ -1,10 +1,9 @@
 window.addEventListener("DOMContentLoaded", function() {
-/* 트렌드 통계 데이터 처리 S */
+    /* 트렌드 통계 데이터 처리 S */
     let data = document.getElementById("chart-data").innerHTML;
     data = JSON.parse(data);
     const labels = Object.keys(data);
     const values = Object.values(data);
-    console.log(labels, values);
     /* 트렌드 통계 데이터 처리 E */
 
     const ctx = document.getElementById('myChart');
